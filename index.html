@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>משרד עורכי דין | ייעוץ וליווי משפטי</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">משרד עורכי דין</div>
+      <a href="#contact" class="nav-link">יצירת קשר</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>ייעוץ וייצוג משפטי מקצועי ואישי</h1>
+        <p class="subtitle">
+          ליווי משפטי מדויק, שקוף ומסור ללקוחות פרטיים ולעסקים. אנחנו כאן כדי להגן על הזכויות שלכם.
+        </p>
+        <a href="#contact" class="btn-primary">תיאום שיחת ייעוץ</a>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2>תחומי עיסוק</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>משפט אזרחי ומסחרי</h3>
+            <p>ניסוח חוזים, ליווי עסקאות וייצוג בסכסוכים משפטיים.</p>
+          </article>
+          <article class="card">
+            <h3>מקרקעין ונדל"ן</h3>
+            <p>ליווי עסקאות מכר ורכישה, הסכמי שכירות ורישום זכויות.</p>
+          </article>
+          <article class="card">
+            <h3>דיני עבודה</h3>
+            <p>ייעוץ לעובדים ומעסיקים, הסכמי העסקה וייצוג בבית הדין.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>צרו קשר לייעוץ ראשוני</h2>
+        <p class="contact-desc">השאירו פרטים ונחזור אליכם בהקדם.</p>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('הפנייה נשלחה בהצלחה. נחזור אליכם בהקדם.'); this.reset();">
+          <input type="text" name="name" placeholder="שם מלא" required>
+          <input type="tel" name="phone" placeholder="טלפון" required>
+          <textarea name="message" rows="3" placeholder="נושא הפנייה"></textarea>
+          <button type="submit" class="btn-primary">שליחת פנייה</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 משרד עורכי דין. כל הזכויות שמורות.</p>
+    </div>
+  </footer>
+</body>
+</html>
