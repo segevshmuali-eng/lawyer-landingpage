@@ -3,13 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>משרד עורכי דין | ייעוץ וליווי משפטי</title>
+  <title>משרד עורכי דין | ייצוג וייעוץ במשפט פלילי</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
     <div class="container header-inner">
-      <div class="logo">משרד עורכי דין</div>
+      <a href="#" class="logo" aria-label="דף הבית">
+        <svg class="logo-icon" viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="40" height="40" rx="8" fill="#0f172a"/>
+          <path d="M20 8V31M13 31H27" stroke="#b48a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M11 14H29" stroke="#b48a4a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M11 14L8 21H14L11 14Z" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M29 14L26 21H32L29 14Z" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">
+          <span class="logo-title">משרד עורכי דין</span>
+          <span class="logo-subtitle">משפט פלילי</span>
+        </span>
+      </a>
       <a href="#contact" class="nav-link">יצירת קשר</a>
     </div>
   </header>
@@ -17,32 +29,32 @@
   <main>
     <section class="hero">
       <div class="container">
-        <h1>ייעוץ וייצוג משפטי מקצועי ואישי</h1>
+        <h1>ייצוג וייעוץ משפטי במשפט פלילי</h1>
         <p class="subtitle">
-          ליווי משפטי מדויק, שקוף ומסור ללקוחות פרטיים ולעסקים. אנחנו כאן כדי להגן על הזכויות שלכם.
+          הגנה משפטית נחושה, דיסקרטית ומקצועית בכל שלבי ההליך הפלילי – מייעוץ לפני חקירה ועד ייצוג מלא בבית המשפט.
         </p>
         <div class="hero-actions">
-          <a href="#contact" class="btn-primary">תיאום שיחת ייעוץ</a>
-          <a href="tel:03-0000000" class="btn-secondary">חיוג מהיר למשרד</a>
+          <a href="#contact" class="btn-primary">תיאום ייעוץ פלילי</a>
+          <a href="tel:03-0000000" class="btn-secondary">חיוג דחוף למשרד</a>
         </div>
       </div>
     </section>
 
     <section class="services">
       <div class="container">
-        <h2>תחומי עיסוק</h2>
+        <h2>תחומי התמחות במשפט פלילי</h2>
         <div class="cards">
           <article class="card">
-            <h3>משפט אזרחי ומסחרי</h3>
-            <p>ניסוח חוזים, ליווי עסקאות וייצוג בסכסוכים משפטיים.</p>
+            <h3>ייעוץ לפני חקירה</h3>
+            <p>ליווי והכנה מדויקת לקראת חקירה במשטרה ושמירה על זכויות הנחקר מהרגע הראשון.</p>
           </article>
           <article class="card">
-            <h3>מקרקעין ונדל"ן</h3>
-            <p>ליווי עסקאות מכר ורכישה, הסכמי שכירות ורישום זכויות.</p>
+            <h3>הליכי מעצר ושחרור</h3>
+            <p>ייצוג מהיר בבקשות מעצר ימים, מעצר עד תום ההליכים ושחרור בתנאים מגבילים.</p>
           </article>
           <article class="card">
-            <h3>דיני עבודה</h3>
-            <p>ייעוץ לעובדים ומעסיקים, הסכמי העסקה וייצוג בבית הדין.</p>
+            <h3>ייצוג בהליך הפלילי</h3>
+            <p>ניהול תיקים פליליים, שימוע לפני כתב אישום, עבירות צווארון לבן ומחיקת רישום פלילי.</p>
           </article>
         </div>
       </div>
@@ -50,13 +62,13 @@
 
     <section id="contact" class="contact">
       <div class="container">
-        <h2>צרו קשר לייעוץ ראשוני</h2>
-        <p class="contact-desc">השאירו פרטים ונחזור אליכם בהקדם.</p>
+        <h2>צרו קשר לייעוץ פלילי דיסקרטי</h2>
+        <p class="contact-desc">השאירו פרטים ונחזור אליכם בדיסקרטיות מלאה ובהקדם האפשרי.</p>
         <form class="contact-form" onsubmit="event.preventDefault(); alert('הפנייה נשלחה בהצלחה. נחזור אליכם בהקדם.'); this.reset();">
           <input type="text" name="name" placeholder="שם מלא" required>
           <input type="tel" name="phone" placeholder="טלפון" required>
-          <textarea name="message" rows="3" placeholder="נושא הפנייה"></textarea>
-          <button type="submit" class="btn-primary">שליחת פנייה</button>
+          <textarea name="message" rows="3" placeholder="פרטים קצרים על הפנייה"></textarea>
+          <button type="submit" class="btn-primary">שליחת פנייה דיסקרטית</button>
         </form>
       </div>
     </section>
@@ -64,7 +76,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© 2026 משרד עורכי דין. כל הזכויות שמורות.</p>
+      <p>© 2026 משרד עורכי דין למשפט פלילי. כל הזכויות שמורות.</p>
     </div>
   </footer>
 </body>

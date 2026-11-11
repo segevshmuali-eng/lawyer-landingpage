@@ -30,9 +30,33 @@ body {
 }
 
 .logo {
-  font-size: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #0f172a;
+}
+
+.logo-icon {
+  flex-shrink: 0;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logo-title {
+  font-size: 1.15rem;
   font-weight: 700;
   color: #0f172a;
+}
+
+.logo-subtitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #b48a4a;
 }
 
 .nav-link {
